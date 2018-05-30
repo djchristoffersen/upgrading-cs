@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 - Parameter Modifiers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13 - Ref Readonly Returns", "13 - Ref Readonly Returns\13 - Ref Readonly Returns.csproj", "{9BB0E00C-8CB4-48F1-B2DF-13375160C6F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14 - Readonly Structs", "14 - Readonly Structs\14 - Readonly Structs.csproj", "{51D02BF8-08E3-44CE-8487-C429D5D7FA1A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 - Ref Structs", "15 - Ref Structs\15 - Ref Structs.csproj", "{548DEC1A-7596-48C9-B4FD-A59B2B0CF964}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16 - Span", "16 - Span\16 - Span.csproj", "{11647635-7273-4903-A768-3C73BC5D1654}"
@@ -45,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25 - Initializers", "25 - I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26 - Attributes on Backing Fields", "26 - Attributes on Backing Fields\26 - Attributes on Backing Fields.csproj", "{6858C3FB-C8A5-4080-90CD-831BE5DE87C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28 - Misc Unmanaged Interop", "28 - Misc Unmanaged Interop\28 - Misc Unmanaged Interop.csproj", "{6A383E1D-CEE4-4864-AE0E-8C5CE7496551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28 - Misc Unmanaged Interop", "28 - Misc Unmanaged Interop\28 - Misc Unmanaged Interop.csproj", "{6A383E1D-CEE4-4864-AE0E-8C5CE7496551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +83,6 @@ Global
 		{9BB0E00C-8CB4-48F1-B2DF-13375160C6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB0E00C-8CB4-48F1-B2DF-13375160C6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB0E00C-8CB4-48F1-B2DF-13375160C6F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51D02BF8-08E3-44CE-8487-C429D5D7FA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51D02BF8-08E3-44CE-8487-C429D5D7FA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51D02BF8-08E3-44CE-8487-C429D5D7FA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51D02BF8-08E3-44CE-8487-C429D5D7FA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{548DEC1A-7596-48C9-B4FD-A59B2B0CF964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{548DEC1A-7596-48C9-B4FD-A59B2B0CF964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548DEC1A-7596-48C9-B4FD-A59B2B0CF964}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -5,7 +5,7 @@ namespace Wincubate.CS7x.Slide13
 {
     class Program
     {
-        static ref readonly int FindMax( int[] numbers )
+        static ref int FindMax( int[] numbers )
         {
             int indexOfMax = 0;
             for (int i = 1; i < numbers.Length; i++)
@@ -23,13 +23,13 @@ namespace Wincubate.CS7x.Slide13
         {
             int[] numbers = { 112, 176, 42, 87, 99 };
 
-            ref readonly int max = ref FindMax(numbers);
+            ref int max = ref FindMax(numbers);
             WriteLine($"{nameof(max)} is now {max}");
 
-            //max = 1000;
+            max = 1000;
 
-            int maxCopy = FindMax(numbers); // Copy
-            maxCopy = 999999;
+            //int maxCopy = FindMax(numbers); // Copy
+            //maxCopy = 999999;
 
             WriteLine("Numbers are:");
             foreach (int i in numbers)
